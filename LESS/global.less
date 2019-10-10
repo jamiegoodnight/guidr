@@ -1,0 +1,180 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// ---
+
+html {
+font-size: 62.5%;
+}
+
+* {
+box-sizing: border-box;
+}
+  
+img {
+width: 200px;
+display: none;
+margin: auto;
+margin-top: -80px;
+z-index: 1;
+	}
+
+@media @tablet {
+	img {
+	margin-top: 860px;
+	}
+}
+
+.main-fa {
+margin-top: 10%;
+font-size: 50px;
+}
+
+.fa-campground {
+display: none;
+}
+  
+.fa-hiking {
+display: none;
+}
+
+.fa-mountain {
+display: none;
+}
+
+.fa-binoculars {
+display: none;
+}
+  
+h1 {
+display: none;
+font-family: 'Pathway Gothic One', sans-serif;
+font-size: 28rem;
+color: @GreenDark;
+animation: h1 0.6s both;
+z-index: 1;
+}
+
+@keyframes h1 {
+	0% {
+	  text-shadow: 0 0 @GreenDarker, 0 0 @GreenDarker, 0 0 @GreenDarker, 0 0 @GreenDarker, 0 0 @GreenDarker, 0 0 @GreenDarker, 0 0 @GreenDarker, 0 0 @GreenDarker;
+	  transform: translateX(0) translateY(0);
+	}
+	100% {
+	  text-shadow: -1px -1px @GreenDarker, -2px -2px @GreenDarker, -3px -3px @GreenDarker, -4px -4px @GreenDarker, -5px -5px @GreenDarker, -6px -6px @GreenDarker, -7px -7px @GreenDarker, -8px -8px @GreenDarker;
+	  transform: translateX(8px) translateY(8px);
+	}
+  }
+  
+  
+@media @tablet {
+    h1 {
+    font-size: 26.5rem;
+    }
+}
+  
+@media @mobile {
+    h1 {
+    font-size: 15rem;
+    }
+}
+  
+  
+p {
+font-family: 'Pathway Gothic One', sans-serif;
+font-size: 3rem;
+}
+
+@media @tablet {
+	p {
+	margin-bottom: 20px;
+	}
+}
+
+.fade-text {
+display: none;
+}
+
+.a-social {
+text-decoration: none;
+color: black;
+z-index: 1;
+}
+
+.a-compass {
+text-decoration: none;
+color: black;
+
+ 	&:hover {
+ 	animation: transform 2s; 
+ 	}
+}
+
+@keyframes transform {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+
+@media @tablet {
+    .a-compass {
+    margin-top: 150px;
+    }
+}
+
+.container {
+width: 100%;
+margin-left: -600px;
+}
+  
