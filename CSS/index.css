@@ -361,12 +361,12 @@ section {
 @media (max-width: 800px) {
   .three .sign-up {
     display: block;
-    margin-top: 105px;
+    margin-top: 145px;
   }
 }
 @media (max-width: 500px) {
   .three .sign-up {
-    margin-top: 95px;
+    margin-top: 130px;
   }
 }
 .three .copy {
