@@ -306,7 +306,6 @@ section {
   display: none;
 }
 .social:hover {
-  font-size: 5rem;
   color: #1F9D55;
   cursor: pointer;
 }
